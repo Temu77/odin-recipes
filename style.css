@@ -1,0 +1,60 @@
+.middle {
+    display: grid;
+    grid-template-columns: 40% 80%;
+    position: relative;
+    margin: 10%;
+    height: 100vh;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.topleft .bottomleft {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: -30vw;
+    position: relative;
+}
+
+.bottomright .topright{
+    margin: 0, auto;
+    position: absolute;
+    height: 500px;
+    width: 50%;
+    display: flex;
+    gap: 5px;
+    
+    
+}
+
+.header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    text-decoration-color: aqua;
+    background-color: aquamarine;
+}
+#images {
+    position: absolute;
+    width: 30%;
+    height: 200px;
+    display: inline;
+    object-fit: cover;
+}
+
+.footer {
+    text-align: center;
+}
+#recipelink {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    color:#000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Architects_Daughter";
+    margin: auto;
+}
